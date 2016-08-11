@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gifit!</title>
+	<meta charset="utf-8">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<div class = "container">
+		<div>
+		  <h1>Giphy</h1>
+		  <p>Search for your favorite television shows, click on the image to start the animation. </p>
+		</div>
+
+		<div>
+
+			<form>
+
+				<div class="gif-form">
+					<label for="">Search</label>
+					<input id="gif-input" placeholder="Enter text">
+				</div>
+
+				<button type="submit" id = "searchButton">Submit</button>
+
+			<br></br>
+				<div id="buttonsView"></div>
+			</form>
+
+		</div>
+
+		<div id ="maincontent">
+
+			<div id="gifView"></div>
+		</div>
+
+	</div>
+
+</body>
+</html>
